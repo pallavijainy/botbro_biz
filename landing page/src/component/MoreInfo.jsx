@@ -34,7 +34,7 @@ const MoreInfo = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2  gap-8 lg:gap-32 items-center">
         <TextComponent
           heading={"Features"}
-          subheading={"Our BotBro is a one-stop shop for all your currency trading needs."}
+          subheading={"Our SmartChain is a one-stop shop for all your currency trading needs."}
           description={
             "You can instantly deploy profitable strategies onto charts with just the click of a button, without having to worry about anything else like technical analysis or knowledge in this field whatsoever! It does everything from setting up positions on various markets around worldwide economy via automatic algorithms so you don’t have to do any work other than making profits."
           }

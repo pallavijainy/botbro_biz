@@ -7,7 +7,7 @@ const CounterComponent = () => {
   const counters = [
     {
       title: "Countries",
-      description: "BotBro is providing its world-class services in more than 140+ countries.",
+      description: "SmartChain is providing its world-class services in more than 140+ countries.",
       end: 140,
       start: 0,
       suffix: "+",
@@ -15,7 +15,7 @@ const CounterComponent = () => {
     },
     {
       title: "Users",
-      description: "BotBro has been trading for more than 5.5M+ happy clients.",
+      description: "SmartChain has been trading for more than 5.5M+ happy clients.",
       end: 5,
       start: 0,
       suffix: ".5M+",
@@ -68,7 +68,7 @@ const CounterComponent = () => {
           <div className="overflow-hidden rounded-3xl" style={{boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px"}}>
             <img
               src={CounterImage}
-              alt="BotBro Robot"
+              alt="SmartChain Robot"
               className="object-cover p-8 rounded-3xl"
             />
           </div>

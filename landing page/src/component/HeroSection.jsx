@@ -12,7 +12,7 @@ const HeroSection = () => {
         >
             <div className="h-full w-full flex flex-col md:flex-row justify-center items-center space-y-5 md:space-y-0 md:space-x-10">
                 <div className="text-white w-full text-center md:text-left md:w-1/2">
-                    <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl typewriter">Hey! I Am BotBro</h1>
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl typewriter">Hey! I Am SmartChain</h1>
                     <p className="text-lg md:text-2xl lg:text-3xl xl:text-5xl mt-5">
                         It's time to take your trading experience up a notch!
                     </p>

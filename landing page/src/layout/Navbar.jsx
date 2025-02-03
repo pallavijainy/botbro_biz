@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import ContactFormPopup from "../component/ContactFormPopup";
+import logo from "../assets/icons/logo.png"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,17 +17,16 @@ const Navbar = () => {
     <>
       <ContactFormPopup show={showPopup} closePopup={closePopup} />
     <nav className="bg-black w-full">
-      {/* Desktop View */}
-      <div className="hidden md:flex justify-between items-center bg-black py-1 px-10">
+      <div className="hidden md:flex justify-between items-center bg-white py-1 px-10">
         <div>
           <img
-            src="https://botbro.biz/wp-content/uploads/2022/04/Bot-Bro-PPT-pdf-1.png"
+            src="https://smartchainstudios.in/assets/appLogo-DyzCCjjs.png"
             alt="Logo"
             className="h-10 lg:h-16"
           />
         </div>
         
-        <div className="flex gap-10 text-white">
+        <div className="flex gap-10 text-black">
           <Link to="home" smooth={true} duration={500} className="cursor-pointer">
             <h2>Home</h2>
           </Link>
@@ -48,15 +48,15 @@ const Navbar = () => {
       </div>
 
       {/* Mobile View */}
-      <div className="flex md:hidden justify-between items-center px-4 py-2 bg-black">
+      <div className="flex md:hidden justify-between items-center px-4 py-2 bg-white">
         <img
-          src="https://botbro.biz/wp-content/uploads/2022/04/Bot-Bro-PPT-pdf-1.png"
+          src={logo}
           alt="Logo"
           className="h-10"
         />
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="text-white focus:outline-none"
+          className="text-black focus:outline-none"
         >
           <svg
             className="w-6 h-6"
@@ -84,7 +84,7 @@ const Navbar = () => {
         </button>
       </div>
       {isMenuOpen && (
-        <div className="flex flex-col items-center gap-4 py-4 bg-black text-white md:hidden">
+        <div className="flex flex-col items-center gap-4 py-4 bg-white text-black md:hidden">
           <Link to="home" smooth={true} duration={500} className="cursor-pointer">
             <h2>Home</h2>
           </Link>

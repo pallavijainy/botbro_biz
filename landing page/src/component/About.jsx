@@ -21,7 +21,7 @@ const About = () => {
       <div className="flex items-center justify-center">
       <TextComponent
         heading={"About Us"}
-        subheading={"Let the Botbro help you make money!"}
+        subheading={"Let the SmartChain help you make money!"}
         description={
           "With a fluctuating market, it’s hard to predict when prices will go up or down. This is where our ally comes in – automatically setting Buy and Sell orders so that we can take advantage of any fluctuations happening on your exchange (or others). Simply connect them through API access if needed then wait for performance data; once available check out how successful these strategies were by demoing before investing real funds"
         }

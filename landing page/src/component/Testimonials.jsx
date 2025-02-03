@@ -7,7 +7,7 @@ const testimonials = [
   {
     name: "Mohan Sharma",
     role: "Business Owner",
-    feedback: "Best Service by BotBro. Fast withdraw.",
+    feedback: "Best Service by SmartChain. Fast withdraw.",
     image: "https://via.placeholder.com/100", // Replace with actual images
   },
   {

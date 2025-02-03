@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4">About</h4>
             <p>
-              BotBro is an AI-based Forex Trading Robot with the power of more
+              SmartChain is an AI-based Forex Trading Robot with the power of more
               than 6 powerful languages.
             </p>
           </div>
@@ -93,7 +93,7 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="mt-6 text-center border-t pt-6 text-lg">
-          © 2022 — BotBro. All Rights Reserved.
+          © 2022 — SmartChain. All Rights Reserved.
         </div>
       </div>
     </footer>
